@@ -1,0 +1,38 @@
+.wrapper{
+  width:100%;
+}
+.slider{
+  display:inline-block;
+  overflow:hidden;
+  color:white;
+  
+}
+.slider-panel{
+  display:inline-block;
+  color:white;
+  text-align:center;
+  padding:40px;
+  box-sizing:border-box;
+  background:indigo;
+  height:100px;
+  border-radius:5px;
+  
+}
+.dots ul li{
+  float:left;
+  list-style:none;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  margin-right:10px;
+  border: 1px solid black;
+}
+.selected{
+  background:black;
+}
+.default{
+  background:white;
+}
+.wrapper{
+  overflow:hidden;
+}
